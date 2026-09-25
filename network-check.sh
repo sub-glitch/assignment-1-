@@ -24,6 +24,8 @@ then
     exit 1
 fi
 
+echo "Resolved address: $RESOLVED_ADDRESS" 
+
 echo "Connectivity check:"
 if ping -c 4 "$HOST" > /dev/null 2>&1
 then
