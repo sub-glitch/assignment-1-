@@ -1,0 +1,43 @@
+====================
+[Fri Sep 25 12:47:29 WAT 2026] Network Check
+====================
+Connectivity check:
+Ping: successful
+
+Network interfaces:
+lo               UNKNOWN        127.0.0.1/8 10.255.255.254/32 ::1/128 
+eth0             UP             172.17.231.203/20 fe80::215:5dff:fe16:5a4e/64 
+
+TCP connectivity check:
+TCP port 53: unreachable
+====================
+[] Disk Check
+====================
+Threshold value: 56
+Disk usage is below threshold: 1% (Threshold: 56%)
+====================
+[Fri Sep 25 12:51:46 WAT 2026] Disk Check
+====================
+Threshold value: 56
+Disk usage is below threshold: 1% (Threshold: 56%)
+====================
+[Fri Sep 25 12:52:14 WAT 2026] System Information
+====================
+
+Current User: uleko
+
+Hostname: SUB
+
+Date: Fri Sep 25 12:52:14 WAT 2026
+
+Kernel release: 6.6.87.2-microsoft-standard-WSL2
+
+Uptime: up 2 hours, 24 minutes
+
+Working Directory: /home/uleko/ASSIGNMENT/assignment-1
+
+Memory Total: 15828 MB
+Memory Usage: 13 %
+
+Operating System: Ubuntu 24.04.4 LTS
+CPU Information:\tIntel(R) Core(TM) i7-10610U CPU @ 1.80GHz (8 Cores)

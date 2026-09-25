@@ -1,4 +1,13 @@
 #!/bin/bash
+
+DATE=$(date)
+
+exec > >(tee -a logs/logs.log)
+
+echo "===================="
+echo "[$DATE] System Information"
+echo "===================="
+
 HOSTNAME=$(hostname)
 USERNAME=$(whoami)
 DATE=$(date)

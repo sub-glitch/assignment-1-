@@ -1,4 +1,13 @@
 #!/bin/bash
+DATE=$(date)
+
+exec > >(tee -a logs/logs.log)
+
+echo "===================="
+echo "[$DATE] Network Check"
+echo "===================="
+
+
 HOST=$1
 PORT=$2
 RESOLVED_ADDRESS=$(getent ahosts "$HOST" | awk 'NR==1 {print  $1}')

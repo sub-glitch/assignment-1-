@@ -1,4 +1,13 @@
 #!/bin/bash
+
+DATE=$(date)
+
+exec > >(tee -a logs/logs.log)
+
+echo "===================="
+echo "[$DATE] Disk Check"
+echo "===================="
+
 DIRECTORY=${2:-/}
 THRESHOLD=$1
 
