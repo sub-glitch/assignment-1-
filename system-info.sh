@@ -1,3 +1,4 @@
+#!/bin/bash
 HOSTNAME=$(hostname)
 USERNAME=$(whoami)
 DATE=$(date)
@@ -43,8 +44,11 @@ fi
 echo
 echo "Operating System: $OS"
 
-
+ 
 echo "CPU Information:\t$CPU_MODEL ($CPU_CORES Cores)"
+
+
+
 
 
 

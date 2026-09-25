@@ -1,4 +1,5 @@
-"DIRECTORY=${2:-/}
+#!/bin/bash
+DIRECTORY=${2:-/}
 THRESHOLD=$1
 
 DISK_USAGE=$(df -h "$DIRECTORY" | awk 'NR > 1 { gsub("%","",$5); print $5 }')
